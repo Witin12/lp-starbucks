@@ -1,13 +1,15 @@
-import HeroSection from "./components/HeroSection";
-import FeaturesSection from "./components/FeaturesSection";
+import NavBar from "./components/NavBar";
+import BannerSection from "./components/BannerSection";
+import ContentGridSection from "./components/ContentGridSection";
 import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-blue-700">
+    <div>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <HeroSection />
-        <FeaturesSection />
+        <NavBar />
+        <BannerSection />
+        <ContentGridSection />
         <Footer />
       </main>
     </div>

@@ -1,6 +1,6 @@
 const BannerSection = () => {
   return (
-    <section className="-mt-8 w-full bg-white relative max-w-full overflow-x-hidden">
+    <section className="w-full bg-white relative max-w-full overflow-x-hidden">
       <img src="/img/bg.jpg" alt="Copo da Starbucks" className="w-full" />
 
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:top-1/4 md:left-16 max-w-full sm:transform-none sm:left-24 lg:top-1/4">
